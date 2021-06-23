@@ -1,0 +1,17 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea/
+.bloop/
+out
+target/
+dist/
+api.home_IS_UNDEFINED/
+pipeline.yml
+swagger-dist-qa/
+node_modules/
+package-lock.json
+*.log
+*.log.gz
+/.java-version
+.DS_Store
+sbt.json
+/kotlin-playground.iml
