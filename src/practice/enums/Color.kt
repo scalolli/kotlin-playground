@@ -1,8 +1,6 @@
-package practice.greeting
+package practice.enums
 
-import practice.greeting.Color.BLUE
-import practice.greeting.Color.RED
-import practice.max
+import practice.classes.max
 
 enum class Color(val r: Int, val g: Int, val b: Int) {
     RED(255, 0, 0),
@@ -15,7 +13,7 @@ fun main(args: Array<String>) {
     val color = Color.GREEN
 
     val phrase = when (color) {
-        RED, BLUE -> "Richard"
+        Color.RED, Color.BLUE -> "Richard"
         else -> "No color!"
     }
 

@@ -1,4 +1,4 @@
-package practice
+package practice.classes
 
 fun main(args: Array<String>) {
     data class Person(val name: String, val age: Int? = null)
