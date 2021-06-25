@@ -6,7 +6,18 @@ fun main() {
     for (i in range)
         print(fizzBuzz(i))
 
+    for (i in 100 downTo 1 step 2)
+        println(i)
+
     range.map { print(it) }
+
+    val map = mapOf("1" to 1, "2" to 2, "3" to 3)
+
+    for ((k, v) in map)
+        println("Key is $k -> $v")
+
+    val list = listOf(1, 2, 3)
+    list.forEach(::println)
 }
 
 fun fizzBuzz(i: Int) =
